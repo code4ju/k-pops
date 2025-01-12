@@ -1,9 +1,9 @@
 export const WorkSeenLogoStripe = () => {
 	return (
-		<div className="flex flex-col max-w-screen-lg w-full self-end">
+		<div className="flex flex-col w-3/5 self-end">
 			<div className="">
 				<div className="flex flex-col gap-8">
-					<p className="self-center">WORK SEEN ON</p>
+					<p className="self-center text-lg">WORK SEEN ON</p>
 					<div className="flex flex-row justify-between">
 						<img
 							className="object-contain"
@@ -37,7 +37,7 @@ export const WorkedWithLogoStripe = () => {
 		<div className="flex flex-col w-full self-end">
 			<div className="">
 				<div className="flex flex-col gap-8">
-					<p className="self-center">
+					<p className="self-center text-lg">
 						WORK WITH SOME OF THE BEST OUT THERE
 					</p>
 					<div className="flex flex-row justify-between">
