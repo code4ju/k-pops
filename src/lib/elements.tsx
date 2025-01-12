@@ -1,6 +1,17 @@
 import clsx from "clsx";
 
-const Button = ({ text, onClick, variant = "primary", className, ...rest }) => {
+interface ButtonProps {
+	text: string;
+	variant?: "primary" | "red" | "blue";
+	className?: string;
+}
+
+const Button = ({
+	text,
+	variant = "primary",
+	className,
+	...rest
+}: ButtonProps) => {
 	const handleClick = () => {
 		window.open("https://www.google.com", "_blank");
 	};

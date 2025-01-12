@@ -1,12 +1,22 @@
 import { Hero } from "../components/Hero.tsx";
-import { WorkedWithLogoStripe } from "../components/LogoDiv.tsx";
+import {
+	WorkSeenLogoStripe,
+	WorkedWithLogoStripe,
+} from "../components/LogoDiv.tsx";
+import { AboutText } from "../components/aboutText.tsx";
 
 export const Home = () => {
 	return (
 		<>
-			<div className="flex flex-col gap-y-24">
-				<Hero />
-				<WorkedWithLogoStripe />
+			<div>
+				<div className="flex flex-row mx-auto max-w-screen-2xl">
+					<div className="flex flex-col w-full gap-28">
+						<Hero />
+						<WorkSeenLogoStripe />
+						<AboutText />
+						<WorkedWithLogoStripe />
+					</div>
+				</div>
 			</div>
 		</>
 	);

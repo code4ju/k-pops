@@ -1,34 +1,74 @@
-export const WorkedWithLogoStripe = () => {
+export const WorkSeenLogoStripe = () => {
 	return (
-		<div className="flex justify-center">
-			<p>WORK SEEN ON</p>
-			<div className="h-40">
-				<img
-					className="bg-slate-500"
-					src="../assets/Flux%20logo.svg.png"
-					alt=""
-				/>
-				<img
-					src="../assets/yahoo-logo2.svg.png"
-					alt=""
-				/>
-				<img
-					src="../assets/fe_Formula%203.svg.png"
-					alt=""
-				/>
-				<img
-					src="../assets/awwwards.svg.png"
-					alt=""
-				/>
+		<div className="flex flex-col max-w-screen-lg w-full self-end">
+			<div className="">
+				<div className="flex flex-col gap-8">
+					<p className="self-center">WORK SEEN ON</p>
+					<div className="flex flex-row justify-between">
+						<img
+							className="object-contain"
+							src="./img/assets/Fluxlogo.png"
+							alt=""
+						/>
+						<img
+							className="object-contain"
+							src="./img/assets/yahoo-logo2.png"
+							alt=""
+						/>
+						<img
+							className="object-contain"
+							src="./img/assets/fe_Formula.png"
+							alt=""
+						/>
+						<img
+							className="object-contain"
+							src="./img/assets/awwwards.png"
+							alt=""
+						/>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
 };
 
-export const WorkSeenStripe = () => {
+export const WorkedWithLogoStripe = () => {
 	return (
-		<>
-			<p>worked with some of the best out there</p>
-		</>
+		<div className="flex flex-col w-full self-end">
+			<div className="">
+				<div className="flex flex-col gap-8">
+					<p className="self-center">
+						WORK WITH SOME OF THE BEST OUT THERE
+					</p>
+					<div className="flex flex-row justify-between">
+						<img
+							className="object-contain"
+							src="./img/assets/Hunter-Yeany.png"
+							alt=""
+						/>
+						<img
+							className="object-contain"
+							src="./img/assets/Nuu-logo.png"
+							alt=""
+						/>
+						<img
+							className="object-contain"
+							src="./img/assets/yahoo-logo2.png"
+							alt=""
+						/>
+						<img
+							className="object-contain"
+							src="./img/assets/Houston-Exponential.png"
+							alt=""
+						/>
+						<img
+							className="object-contain"
+							src="./img/assets/ad_Nami-logo.png"
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
 	);
 };
