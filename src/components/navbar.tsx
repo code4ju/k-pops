@@ -7,7 +7,7 @@ export const Navbar = () => {
 			<div>
 				<img
 					className="w-1/2"
-					src="src/assets/Vector.png"
+					src="src/assets/homeLogo.png"
 					alt=""
 				/>
 			</div>
@@ -26,7 +26,9 @@ export const Navbar = () => {
 				<Button
 					text="SCHEDULE A CALL"
 					variant=""
-					onClick={() => console.log("red button clicked")}></Button>
+					onClick={() => console.log("red button clicked")}
+					className=""
+				/>
 			</div>
 		</div>
 	);
