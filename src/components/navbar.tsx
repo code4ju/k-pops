@@ -25,6 +25,7 @@ export const Navbar = () => {
 					</ul>
 					<Button
 						text="SCHEDULE A CALL"
+						// change color of button - options: red || blue || primary = black
 						variant="primary"
 						className=""
 					/>
