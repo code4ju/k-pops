@@ -20,7 +20,7 @@ export const Achievements1 = () => {
 export const Achievements2 = () => {
 	return (
 		<>
-			<div className="flex flex-row gap-5 overflow-y-scroll w-screen h-4/6 border-2">
+			<div className="flex flex-row gap-5 overflow-y-scroll w-screen h-4/6">
 				<img
 					className="mt-10"
 					src="./img/assets/slideBluethinreel-ux-p-800.png"

@@ -25,7 +25,7 @@ export const Profile = () => {
 					<div className="flex flex-col p-12 gap-7">
 						<img
 							className="opacity-10 max-w-20 max-h-20"
-							src="../../public/img/assets/quotes.png"
+							src="./img/assets/quotes.png"
 							alt=""
 						/>
 						<p className="text-4xl font-thin">
