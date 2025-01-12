@@ -5,6 +5,7 @@ import {
 } from "../components/LogoDiv.tsx";
 import { AboutText } from "../components/aboutText.tsx";
 import { Gallery } from "../components/Gallery.tsx";
+import { HumbleBrag } from "../components/HumbleBrag.tsx";
 
 export const Home = () => {
 	return (
@@ -17,6 +18,7 @@ export const Home = () => {
 						<AboutText />
 						<Gallery />
 						<Gallery />
+						<HumbleBrag />
 						<WorkedWithLogoStripe />
 					</div>
 				</div>
