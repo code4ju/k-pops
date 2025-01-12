@@ -14,82 +14,82 @@ export const HumbleBrag = () => {
 				<div className="flex flex-row gap-5 overflow-y-scroll w-screen h-4/6 border-2">
 					<img
 						className="mt-10"
-						src="../../public/img/assets/slideBluethinreel-ux-p-800.png"
+						src="./img/assets/slideBluethinreel-ux-p-800.png"
 						alt=""
 					/>
 					<img
 						className="mb-10"
-						src="../../public/img/assets/slideYellowthinreel-ui-1-p-500.png"
+						src="./img/assets/slideYellowthinreel-ui-1-p-500.png"
 						alt=""
 					/>
 					<img
 						className="mb-5 mt-10"
-						src="../../public/img/assets/slideGreencertificate-houston-exponential-hm-p-500.png"
+						src="./img/assets/slideGreencertificate-houston-exponential-hm-p-500.png"
 						alt=""
 					/>
 					<img
 						className="mb-10"
-						src="../../public/img/assets/slideRedthinreel-innovation-p-800.png"
+						src="./img/assets/slideRedthinreel-innovation-p-800.png"
 						alt=""
 					/>
 					<img
 						className="mt-10"
-						src="../../public/img/assets/slideBluethinreel-ux-p-800.png"
+						src="./img/assets/slideBluethinreel-ux-p-800.png"
 						alt=""
 					/>
 					<img
 						className="mb-10"
-						src="../../public/img/assets/slideYellowthinreel-ui-1-p-500.png"
+						src="./img/assets/slideYellowthinreel-ui-1-p-500.png"
 						alt=""
 					/>
 					<img
 						className="mb-5 mt-10"
-						src="../../public/img/assets/slideGreencertificate-houston-exponential-hm-p-500.png"
+						src="./img/assets/slideGreencertificate-houston-exponential-hm-p-500.png"
 						alt=""
 					/>
 					<img
 						className="mb-10"
-						src="../../public/img/assets/slideRedthinreel-innovation-p-800.png"
+						src="./img/assets/slideRedthinreel-innovation-p-800.png"
 						alt=""
 					/>
 					<img
 						className="mt-10"
-						src="../../public/img/assets/slideBluethinreel-ux-p-800.png"
+						src="./img/assets/slideBluethinreel-ux-p-800.png"
 						alt=""
 					/>
 					<img
 						className="mb-10"
-						src="../../public/img/assets/slideYellowthinreel-ui-1-p-500.png"
+						src="./img/assets/slideYellowthinreel-ui-1-p-500.png"
 						alt=""
 					/>
 					<img
 						className="mb-5 mt-10"
-						src="../../public/img/assets/slideGreencertificate-houston-exponential-hm-p-500.png"
+						src="./img/assets/slideGreencertificate-houston-exponential-hm-p-500.png"
 						alt=""
 					/>
 					<img
 						className="mb-10"
-						src="../../public/img/assets/slideRedthinreel-innovation-p-800.png"
+						src="./img/assets/slideRedthinreel-innovation-p-800.png"
 						alt=""
 					/>
 					<img
 						className="mt-10"
-						src="../../public/img/assets/slideBluethinreel-ux-p-800.png"
+						src="./img/assets/slideBluethinreel-ux-p-800.png"
 						alt=""
 					/>
 					<img
 						className="mb-10"
-						src="../../public/img/assets/slideYellowthinreel-ui-1-p-500.png"
+						src="./img/assets/slideYellowthinreel-ui-1-p-500.png"
 						alt=""
 					/>
 					<img
 						className="mb-5 mt-10"
-						src="../../public/img/assets/slideGreencertificate-houston-exponential-hm-p-500.png"
+						src="./img/assets/slideGreencertificate-houston-exponential-hm-p-500.png"
 						alt=""
 					/>
 					<img
 						className="mb-10"
-						src="../../public/img/assets/slideRedthinreel-innovation-p-800.png"
+						src="./img/assets/slideRedthinreel-innovation-p-800.png"
 						alt=""
 					/>
 				</div>
