@@ -2,14 +2,12 @@ export const Achievements1 = () => {
 	return (
 		<>
 			<div>
-				<div className="flex flex-col max-w-screen-2xl gap-32">
-					<div className="flex flex-col items-center">
-						<h1 className="text-9xl">HUMBLE</h1>
-						<div className="flex flex-row gap-5">
-							<h1 className="text-9xl">BRAG</h1>
-							<p className="text-sm max-w-40 self-end mb-4 leading-none">
-								I WON SOME AWARDS ALONG THE WAY
-							</p>
+				<div className="flex justify-center">
+					<div className="flex flex-col">
+						<h1 className="text-6xl">HUMBLE</h1>
+						<div className="">
+							<h1 className="text-6xl">BRAG</h1>
+							<p className="">I WON SOME AWARDS ALONG THE WAY</p>
 						</div>
 					</div>
 				</div>
@@ -107,7 +105,7 @@ export const Achievements2 = () => {
 };
 export const Achievements3 = () => {
 	return (
-		<div className="flex flex-col w-8/12 self-end">
+		<div className="flex flex-col self-end">
 			<table className="">
 				<tbody className="">
 					<tr className="border-b">
