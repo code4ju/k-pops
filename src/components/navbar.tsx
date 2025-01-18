@@ -10,8 +10,8 @@ export const Navbar = () => {
 	};
 	return (
 		<>
-			<div className="p-3">
-				<div className="flex flex-row justify-between">
+			<div className="p-3 md:flex md:flex-row md:justify-between md:items-center">
+				<div className="flex justify-between">
 					<div>
 						<NavLink to={"/"}>
 							<img
@@ -32,36 +32,43 @@ export const Navbar = () => {
 						<div className="min-w-8 border-black border-2"></div>
 						<div className="min-w-8 border-black border-2"></div>
 					</div>
-					<p
-						className={
-							burger ? "block text-3xl text-black" : "hidden"
-						}
-						onClick={toggleBurger}>
-						X
-					</p>
+				</div>
+				<div>
+					<div className="INSIDEMENU md:flex md:flex-row md:items-center md:gap-5">
+						<ul className="md:flex md:flex-row md:gap-5">
+							<li onClick={toggleBurger}>
+								<NavLink to={"/"}>HOME</NavLink>
+							</li>
+							<li onClick={toggleBurger}>
+								<NavLink to={"/work"}>WORK</NavLink>
+							</li>
+							<li onClick={toggleBurger}>
+								<NavLink to={"/contact"}>CONTACT</NavLink>
+							</li>
+						</ul>
+						<Button
+							className="border-2"
+							text="SCHEDULE A CALL"
+							// change color of button - options: red || blue || primary = black
+							variant="primary"
+						/>
+					</div>
 				</div>
 			</div>
 			<div className={burger ? "flex" : "hidden"}>
-				<div className="flex flex-col fixed bg-black text-white w-full p-9 gap-5 z-50 motion-preset-slide-down">
+				<div className="flex flex-col fixed bg-black text-white w-full p-9 gap-5 z-50 motion-preset-slide-down md:hidden">
 					<ul className="flex flex-col w-full max-h-screen items-center text-3xl gap-5">
-						<li
-							onClick={toggleBurger}
-							className="hover:text-blue-400">
+						<li onClick={toggleBurger}>
 							<NavLink to={"/"}>HOME</NavLink>
 						</li>
-						<li
-							onClick={toggleBurger}
-							className="hover:text-blue-400">
+						<li onClick={toggleBurger}>
 							<NavLink to={"/work"}>WORK</NavLink>
 						</li>
-						<li
-							onClick={toggleBurger}
-							className="hover:text-blue-400">
+						<li onClick={toggleBurger}>
 							<NavLink to={"/contact"}>CONTACT</NavLink>
 						</li>
 					</ul>
 					<Button
-						onClick={toggleBurger}
 						className="text-3xl"
 						text="SCHEDULE A CALL"
 						// change color of button - options: red || blue || primary = black
