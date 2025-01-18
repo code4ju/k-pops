@@ -1,9 +1,9 @@
 export const WorkSeenLogoStripe = () => {
 	return (
-		<div className="flex flex-col w-full self-end">
+		<div className="flex flex-col w-full self-end p-3">
 			<div className="flex flex-col items-center gap-5">
 				<p>WORK SEEN ON</p>
-				<div className="flex flex-row">
+				<div className="flex flex-row justify-between overflow-y-scroll gap-5">
 					<img
 						className="object-contain"
 						src="./img/assets/Fluxlogo.png"

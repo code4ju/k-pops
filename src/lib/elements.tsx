@@ -19,7 +19,7 @@ const Button = ({
 		<button
 			onClick={handleClick}
 			className={clsx(
-				"text-sm text-white bg-neutral-900 px-6 py-4 rounded-lg tracking-wide",
+				"text-3xl text-neutral-900 bg-white px-6 py-4 mt-5 rounded-lg tracking-wide",
 				{
 					"bg-red-500": variant === "red",
 					"bg-blue-500": variant === "blue",
