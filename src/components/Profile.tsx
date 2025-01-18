@@ -1,22 +1,22 @@
 export const Profile = () => {
 	return (
 		<>
-			<div className="flex flex-col w-full border">
-				<div className="flex flex-row items-center justify-between px-5 text-sm h-24 border-2 border-neutral-900">
-					<p>
-						<b>NAME</b>: FRAZER HURELL
+			<div className="flex flex-col p-3 justify-center">
+				<div className="flex w-full p-3 items-stretch text-sm h-24 border-2 border-neutral-900">
+					<p className="flex flex-col w-1/4">
+						<b>NAME:</b> FRAZER HURELL
 					</p>
-					<p>
-						<b>ROLE</b>: CREATEIVE TECHNOLOGIST
+					<p className="flex flex-col w-1/4">
+						<b>ROLE:</b> CREATEIVE TECHNOLOGIST
 					</p>
-					<p>
-						<b>COMPANY</b>: YAHOO!
+					<p className="flex flex-col w-1/4">
+						<b>COMPANY:</b> YAHOO!
 					</p>
-					<p>
-						<b>PROJECT</b>: BRITISH AIRWAYS
+					<p className="flex flex-col w-1/4">
+						<b>PROJECT:</b> BRITISH AIRWAYS
 					</p>
 				</div>
-				<div className="flex flex-row border-2 border-neutral-900 border-t-0">
+				<div className="flex flex-col border-2 border-neutral-900 border-t-0">
 					<img
 						className="h-max m-3"
 						src="./img/assets/Frazer-hurrell-p-1080.png"
@@ -24,11 +24,11 @@ export const Profile = () => {
 					/>
 					<div className="flex flex-col p-12 gap-7">
 						<img
-							className="opacity-10 max-w-20 max-h-20"
+							className="opacity-10 max-w-10 max-h-10"
 							src="./img/assets/quotes.png"
 							alt=""
 						/>
-						<p className="text-4xl font-thin">
+						<p className="text-2xl font-thin">
 							From the initial meeting to the final delivery,
 							Ethan has created a feeling of trust and delivered
 							everything we asked of him. The quality of his work
