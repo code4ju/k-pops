@@ -15,7 +15,7 @@ import { Profile } from "../components/Profile.tsx";
 export const Home = () => {
 	return (
 		<>
-			<div className="flex flex-col gap-24 pt-12">
+			<div className="flex flex-col gap-24 pt-12 pb-20">
 				<Hero />
 				<WorkSeenLogoStripe />
 				<AboutText />

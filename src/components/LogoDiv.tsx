@@ -37,7 +37,7 @@ export const WorkedWithLogoStripe = () => {
 				<p className="self-center text-lg">
 					WORK WITH SOME OF THE BEST OUT THERE
 				</p>
-				<div className="flex flex-row justify-between">
+				<div className="flex flex-row justify-between overflow-y-scroll">
 					<img
 						className="object-contain"
 						src="./img/assets/Hunter-Yeany.png"
