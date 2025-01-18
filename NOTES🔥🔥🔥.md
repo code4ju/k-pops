@@ -80,3 +80,7 @@ Include the CSS in your project by adding the following line to your project:
 body {
 font-family: 'Inter Variable', sans-serif;
 }
+
+# https://www.npmjs.com/package/react-responsive
+
+https://www.browserstack.com/guide/how-to-make-react-app-responsive

@@ -3,16 +3,23 @@ import Button from "../lib/elements.tsx";
 
 export const Navbar = () => {
 	return (
-		<div className="py-3 px-3">
-			<div className="flex flex-row mx-auto justify-between max-w-screen-2xl">
-				<div className="self-center">
-					<img
-						src="./img/assets/homeLogo.png"
-						alt=""
-					/>
+		<div className="p-3">
+			<div className="flex flex-row justify-between">
+				<div>
+					<NavLink to={"/"}>
+						<img
+							src="./img/assets/homeLogo.png"
+							alt=""
+						/>
+					</NavLink>
 				</div>
-				<div className="flex flex-row items-center gap-3">
-					<ul className="flex flex-row justify-center gap-3">
+				<div className="flex flex-col gap-1 justify-center">
+					<div className="min-w-8 border-black border-2"></div>
+					<div className="min-w-8 border-black border-2"></div>
+					<div className="min-w-8 border-black border-2"></div>
+				</div>
+				<div className="hidden">
+					<ul className="">
 						<li>
 							<NavLink to={"/"}>HOME</NavLink>
 						</li>
