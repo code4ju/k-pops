@@ -18,7 +18,7 @@ export const Achievements1 = () => {
 export const Achievements2 = () => {
 	return (
 		<>
-			<div className="flex flex-row gap-5 overflow-y-scroll w-screen h-4/6">
+			<div className="flex flex-row gap-5 overflow-y-scroll w-screen h-4/6 lg:w-screen lg:self-start">
 				<img
 					className="mt-10"
 					src="./img/assets/slideBluethinreel-ux-p-800.png"

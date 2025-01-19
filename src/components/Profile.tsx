@@ -16,7 +16,7 @@ export const Profile = () => {
 						<b>PROJECT:</b> BRITISH AIRWAYS
 					</p>
 				</div>
-				<div className="flex flex-col border-2 border-neutral-900 border-t-0">
+				<div className="flex flex-col border-2 border-neutral-900 border-t-0 lg:flex-row">
 					<img
 						className="h-max m-3"
 						src="./img/assets/Frazer-hurrell-p-1080.png"

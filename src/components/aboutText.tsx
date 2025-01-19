@@ -1,7 +1,7 @@
 export const AboutText = () => {
 	return (
 		<>
-			<div className="p-3">
+			<div className="p-3 md:w-3/4 md:self-end">
 				<p className="text-3xl">
 					<div className="inline">
 						<span className="align-text-top text-sm px-8">
