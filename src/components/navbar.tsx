@@ -11,7 +11,7 @@ export const Navbar = () => {
 	return (
 		<>
 			<div className="p-3 m-auto md:flex md:flex-row md:justify-between md:items-center md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
-				<div className="fixed top-44 min-w-10 min-h-10 md:bg-blue-400 lg:bg-yellow-400 xl:bg-green-400 2xl:bg-pink-600"></div>
+				{/* <div className="fixed top-44 min-w-10 min-h-10 md:bg-blue-400 lg:bg-yellow-400 xl:bg-green-400 2xl:bg-pink-600"></div> */}
 				<div className="flex justify-between">
 					<div>
 						<NavLink to={"/"}>

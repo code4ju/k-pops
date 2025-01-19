@@ -1,4 +1,4 @@
-import Button from "./button";
+import Button from "./button.tsx";
 
 export const InputForm = () => {
 	return (
@@ -55,12 +55,11 @@ export const InputForm = () => {
 						</div>
 					</div>
 				</form>
-
 				<Button
-					className="text-3xl text-white bg-neutral-900"
-					text="SCHEDULE A CALL"
+					className="text-3xl bg-neutral-900 text-white"
+					text="SEND IT"
 					// change color of button - options: red || blue || primary = black
-					variant="primary"
+					// variant="red"
 				/>
 			</div>
 		</>

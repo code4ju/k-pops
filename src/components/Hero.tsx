@@ -2,7 +2,7 @@ export const Hero = () => {
 	return (
 		<>
 			<div className="flex flex-col w-full self-end p-3 md:w-3/4 md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl ">
-				<div className="flex flex-col text-5xl md:text-7xl lg:text-8xl xl:text-9xl md:self-start 2xl:bg-slate-400">
+				<div className="flex flex-col text-5xl md:text-7xl lg:text-8xl xl:text-9xl md:self-start">
 					<h2>STUNNING</h2>
 					<div>
 						<h2>BRANDS</h2>
