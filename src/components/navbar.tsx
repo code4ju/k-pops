@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
-import Button from "../lib/elements.tsx";
+import Button from "../lib/button.tsx";
 
 export const Navbar = () => {
 	const [burger, setburger] = useState(false);

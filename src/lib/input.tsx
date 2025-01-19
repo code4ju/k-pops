@@ -1,0 +1,72 @@
+import Button from "./button";
+
+export const InputForm = () => {
+	return (
+		<>
+			<h1 className="text-4xl text-center text-neutral-900 mb-6 w-3/4 self-center pt-16">
+				Schedule your personal Call
+			</h1>
+			<div className="flex flex-col p-3 gap-6">
+				<div className="flex flex-col lg:flex-row gap-5">
+					<div className="flex flex-col gap-3 lg:w-2/5">
+						<input
+							type="text"
+							name="name"
+							placeholder="Your Name"
+							className="border border-gray-300 rounded-md p-5"
+						/>
+						<input
+							type="email"
+							name="mail"
+							placeholder="Your Email"
+							className="border border-gray-300 rounded-md p-5"
+						/>
+						<input
+							type="tel"
+							name="tel"
+							placeholder="Your Phone Number"
+							className="border border-gray-300 rounded-md p-5"
+						/>
+						<input
+							type="text"
+							name="description"
+							placeholder="Call Description"
+							className="border border-gray-300 rounded-md p-5"
+						/>
+					</div>
+					<div className="flex flex-col gap-3 w-full lg:w-3/5">
+						<textarea
+							name="personal"
+							placeholder="Personal Message"
+							className="border border-gray-300 rounded-md p-5 w-full h-36 lg:h-full"></textarea>
+						<div className="flex gap-3">
+							<input
+								type="date"
+								name="date"
+								placeholder="Date"
+								className="border w-1/2 border-gray-300 rounded-md p-5"
+							/>
+							<input
+								type="time"
+								name="time"
+								placeholder="Time"
+								className="border w-1/2 border-gray-300 rounded-md p-5"
+							/>
+						</div>
+					</div>
+				</div>
+				<Button
+					className="text-3xl"
+					text="SCHEDULE A CALL"
+					// change color of button - options: red || blue || primary = black
+					variant="primary"
+				/>
+				{/* <button
+					type="submit"
+					className="bg-blue-500 text-white px-4 py-2 rounded-md">
+					Schedule
+				</button> */}
+			</div>
+		</>
+	);
+};
