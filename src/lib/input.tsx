@@ -7,7 +7,7 @@ export const InputForm = () => {
 				Schedule your personal Call
 			</h1>
 			<div className="flex flex-col p-3 gap-6">
-				<div className="flex flex-col lg:flex-row gap-5">
+				<form className="flex flex-col lg:flex-row gap-5">
 					<div className="flex flex-col gap-3 lg:w-2/5">
 						<input
 							type="text"
@@ -18,13 +18,13 @@ export const InputForm = () => {
 						<input
 							type="email"
 							name="mail"
-							placeholder="Your Email"
+							placeholder="Your email"
 							className="border border-gray-300 rounded-md p-5"
 						/>
 						<input
 							type="tel"
-							name="tel"
-							placeholder="Your Phone Number"
+							name="phone"
+							placeholder="Your email Number"
 							className="border border-gray-300 rounded-md p-5"
 						/>
 						<input
@@ -54,18 +54,14 @@ export const InputForm = () => {
 							/>
 						</div>
 					</div>
-				</div>
+				</form>
+
 				<Button
-					className="text-3xl"
+					className="text-3xl text-white bg-neutral-900"
 					text="SCHEDULE A CALL"
 					// change color of button - options: red || blue || primary = black
 					variant="primary"
 				/>
-				{/* <button
-					type="submit"
-					className="bg-blue-500 text-white px-4 py-2 rounded-md">
-					Schedule
-				</button> */}
 			</div>
 		</>
 	);
