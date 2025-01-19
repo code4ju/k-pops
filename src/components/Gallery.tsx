@@ -1,7 +1,7 @@
 export const Gallery = () => {
 	return (
 		<>
-			<div className="flex flex-col gap-12">
+			<div className="flex flex-col gap-12 m-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
 				<h1 className="text-6xl self-center">SELECTED</h1>
 				<div className="flex flex-col-reverse justify-between w-full xl:w-10/12 xl:m-auto xl:flex-row xl:items-center">
 					<div className="flex flex-col p-3 xl:pl-20 xl:w-1/2">

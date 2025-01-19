@@ -1,7 +1,7 @@
 export const Profile = () => {
 	return (
 		<>
-			<div className="flex flex-col p-3 justify-center">
+			<div className="flex flex-col m-auto p-3 justify-center md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
 				<div className="flex w-full p-3 items-stretch text-sm h-24 border-2 border-neutral-900">
 					<p className="flex flex-col w-1/4">
 						<b>NAME:</b> FRAZER HURELL

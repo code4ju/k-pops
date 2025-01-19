@@ -18,7 +18,7 @@ export const Achievements1 = () => {
 export const Achievements2 = () => {
 	return (
 		<>
-			<div className="flex flex-row gap-5 overflow-y-scroll w-screen h-4/6 lg:w-screen lg:self-start">
+			<div className="flex flex-row gap-5 overflow-y-scroll h-4/6 w-full ">
 				<img
 					className="mt-10"
 					src="./img/assets/slideBluethinreel-ux-p-800.png"
@@ -105,8 +105,8 @@ export const Achievements2 = () => {
 };
 export const Achievements3 = () => {
 	return (
-		<div className="flex flex-col self-end">
-			<table className="">
+		<div className="flex flex-col w-full m-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
+			<table className="2xl:w-6/12 self-end">
 				<tbody className="">
 					<tr className="border-b">
 						<td className="px-4 py-2">HOUSTON EXPONENTIAL</td>

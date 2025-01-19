@@ -1,6 +1,6 @@
 export const WorkSeenLogoStripe = () => {
 	return (
-		<div className="flex flex-col w-full self-end p-3 md:w-3/4">
+		<div className="flex flex-col w-full self-end p-3 md:w-3/4 md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
 			<div className="flex flex-col items-center gap-5 md:self-start">
 				<p>WORK SEEN ON</p>
 				<div className="flex flex-row justify-between overflow-y-scroll gap-5">
