@@ -1,54 +1,50 @@
 export const Gallery = () => {
 	return (
 		<>
-			<div className="flex flex-col items-center gap-32 max-w-screen-xl">
-				<h1 className="text-9xl">SELECTED</h1>
-				<div className="flex flex-row justify-between w-full">
-					<div className="self-center px-20">
+			<div className="flex flex-col gap-12 m-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
+				<h1 className="text-6xl self-center">SELECTED</h1>
+				<div className="flex flex-col-reverse justify-between w-full xl:w-10/12 xl:m-auto xl:flex-row xl:items-center">
+					<div className="flex flex-col p-3 xl:pl-20 xl:w-1/2">
 						<h4 className="text-3xl">HOUSTON EXPONENTIAL</h4>
-						<p className="text-lg">
+						<p className="text-lg xl:p-4 w-8/12">
 							A new digital HUB for houston’s biggest startup
 							ecosystem.
 						</p>
 					</div>
 					<img
-						className="w-1/2"
+						className="p-3 xl:w-1/2"
 						src="./img/assets/GalleryHouston-Exponential1.png"
 						alt=""
 					/>
 				</div>
-				<div>
-					<div className="flex flex-row justify-between w-full">
-						<img
-							className="w-1/2"
-							src="./img/assets/GalleryNami-ML.png"
-							alt=""
-						/>
-						<div className="self-center px-20 w-1/2">
-							<h4 className="text-3xl">NAMI ML</h4>
-							<p className="text-lg">
-								A brand new digital identity and website for the
-								subscription App service that focuses on happy
-								subscribers.
-							</p>
-						</div>
+				<div className="flex flex-col-reverse justify-between w-full xl:w-10/12 xl:m-auto xl:flex-row-reverse xl:items-center">
+					<div className="flex flex-col p-3 xl:pl-20 xl:w-1/2">
+						<h4 className="text-3xl">NAMI ML</h4>
+						<p className="text-lg xl:p-4 w-8/12">
+							A brand new digital identity and website for the
+							subscription App service that focuses on happy
+							subscribers.
+						</p>
 					</div>
+					<img
+						className="p-3 xl:w-1/2"
+						src="./img/assets/GalleryNami-ML.png"
+						alt=""
+					/>
 				</div>
-				<div>
-					<div className="flex flex-row justify-between w-full">
-						<div className="self-center px-20 w-1/2">
-							<h4 className="text-3xl">THIN REEL</h4>
-							<p className="text-lg">
-								How we turned a local studio into one of the
-								biggest video agencies in the south of the UK.
-							</p>
-						</div>
-						<img
-							className="w-1/2"
-							src="./img/assets/GalleryThin-Reel.png"
-							alt=""
-						/>
+				<div className="flex flex-col-reverse justify-between w-full xl:w-10/12 xl:m-auto xl:flex-row xl:items-center">
+					<div className="flex flex-col p-3 xl:pl-20 xl:w-1/2">
+						<h4 className="text-3xl">THIN REEL</h4>
+						<p className="text-lg xl:p-4 w-8/12">
+							How we turned a local studio into one of the biggest
+							video agencies in the south of the UK.
+						</p>
 					</div>
+					<img
+						className="p-3 xl:w-1/2"
+						src="./img/assets/GalleryThin-Reel.png"
+						alt=""
+					/>
 				</div>
 			</div>
 		</>
