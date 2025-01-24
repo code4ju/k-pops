@@ -16,7 +16,7 @@ export const Home = () => {
 	return (
 		<>
 			{/* <div className="flex flex-col gap-24 pt-12 pb-20 m-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl"> */}
-			<div className="flex flex-col gap-24 pt-12 pb-20 m-auto ">
+			<div className="flex flex-col gap-24 pt-20 pb-20 m-auto">
 				<Hero />
 				<WorkSeenLogoStripe />
 				<AboutText />

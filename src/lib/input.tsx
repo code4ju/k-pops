@@ -1,4 +1,5 @@
 import Button from "./button.tsx";
+import { NewButton } from "../lib/newButton";
 
 export const InputForm = () => {
 	return (
@@ -61,6 +62,16 @@ export const InputForm = () => {
 					// change color of button - options: red || blue || primary = black
 					// variant="red"
 				/>
+				<NewButton
+					goTo="libacco.de"
+					variant="primary">
+					LIBACCO
+				</NewButton>
+				<NewButton
+					goTo="google.com"
+					variant="primary">
+					GOOGLE
+				</NewButton>
 			</div>
 		</>
 	);
