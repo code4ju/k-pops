@@ -6,7 +6,7 @@ interface ButtonProps {
 	className?: string;
 }
 
-const Button = ({
+const Button: React.FC<ButtonProps> = ({
 	text,
 	variant = "primary",
 	className,

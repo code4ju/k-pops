@@ -1,14 +1,54 @@
 import Button from "./button.tsx";
 import { NewButton } from "../lib/newButton";
 
-export const InputForm = () => {
+interface InputFormProps {
+	title?: string;
+	onSubmit?: (formData: {
+		name: string;
+		mail: string;
+		phone: string;
+		description: string;
+		personal: string;
+		date: string;
+		time: string;
+	}) => void;
+	showExtraButtons?: boolean;
+	submitButtonText?: string;
+}
+
+export const InputForm = ({
+	title = "Schedule your personal Call",
+	onSubmit,
+	showExtraButtons = false,
+	submitButtonText = "SEND IT",
+}: InputFormProps) => {
+	const handleSubmit = (e: React.FormEvent) => {
+		e.preventDefault();
+		if (onSubmit) {
+			const formData = new FormData(e.target as HTMLFormElement);
+			const data = Object.fromEntries(formData);
+			onSubmit(
+				data as {
+					name: string;
+					mail: string;
+					phone: string;
+					description: string;
+					personal: string;
+					date: string;
+					time: string;
+				}
+			);
+		}
+	};
 	return (
 		<>
 			<h1 className="text-4xl text-center text-neutral-900 mb-6 w-3/4 self-center pt-16">
-				Schedule your personal Call
+				{title}
 			</h1>
 			<div className="flex flex-col p-3 gap-6">
-				<form className="flex flex-col lg:flex-row gap-5">
+				<form
+					onSubmit={handleSubmit}
+					className="flex flex-col lg:flex-row gap-5">
 					<div className="flex flex-col gap-3 lg:w-2/5">
 						<input
 							type="text"
@@ -58,20 +98,22 @@ export const InputForm = () => {
 				</form>
 				<Button
 					className="text-3xl bg-neutral-900 text-white"
-					text="SEND IT"
-					// change color of button - options: red || blue || primary = black
-					// variant="red"
+					text={submitButtonText}
 				/>
-				<NewButton
-					goTo="libacco.de"
-					variant="primary">
-					LIBACCO
-				</NewButton>
-				<NewButton
-					goTo="google.com"
-					variant="primary">
-					GOOGLE
-				</NewButton>
+				{showExtraButtons && (
+					<>
+						<NewButton
+							goTo="libacco.de"
+							variant="primary">
+							LIBACCO
+						</NewButton>
+						<NewButton
+							goTo="google.com"
+							variant="primary">
+							GOOGLE
+						</NewButton>
+					</>
+				)}
 			</div>
 		</>
 	);

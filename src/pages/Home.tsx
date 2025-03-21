@@ -3,7 +3,7 @@ import {
 	WorkSeenLogoStripe,
 	WorkedWithLogoStripe,
 } from "../components/LogoDiv.tsx";
-import { AboutText } from "../components/aboutText.tsx";
+import { AboutText } from "../components/AboutText.tsx";
 import { Gallery } from "../components/Gallery.tsx";
 import {
 	Achievements1,

@@ -1,6 +1,16 @@
-import React from "react";
+interface buttonInterface {
+	children: React.ReactNode;
+	goTo: string;
+	variant: "primary" | "secondary" | "danger" | "default";
+	className?: string;
+}
 
-export const NewButton = ({ children, goTo, variant, ...rest }) => {
+export const NewButton: React.FC<buttonInterface> = ({
+	children,
+	goTo,
+	variant,
+	...rest
+}) => {
 	const getVariantClasses = () => {
 		switch (variant) {
 			case "primary":
