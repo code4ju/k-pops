@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-	* {
-		/* border: 2px solid red; */
-	}
 	body {
 		font-family: "Inter Variable", sans-serif;
 		@apply text-neutral-900;

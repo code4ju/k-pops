@@ -2,14 +2,12 @@ export const Achievements1 = () => {
 	return (
 		<>
 			<div>
-				<div className="flex flex-col max-w-screen-2xl gap-32">
-					<div className="flex flex-col items-center">
-						<h1 className="text-9xl">HUMBLE</h1>
-						<div className="flex flex-row gap-5">
-							<h1 className="text-9xl">BRAG</h1>
-							<p className="text-sm max-w-40 self-end mb-4 leading-none">
-								I WON SOME AWARDS ALONG THE WAY
-							</p>
+				<div className="flex justify-center">
+					<div className="flex flex-col">
+						<h1 className="text-6xl">HUMBLE</h1>
+						<div className="">
+							<h1 className="text-6xl">BRAG</h1>
+							<p className="">I WON SOME AWARDS ALONG THE WAY</p>
 						</div>
 					</div>
 				</div>
@@ -20,7 +18,7 @@ export const Achievements1 = () => {
 export const Achievements2 = () => {
 	return (
 		<>
-			<div className="flex flex-row gap-5 overflow-y-scroll w-screen h-4/6">
+			<div className="flex flex-row gap-5 overflow-y-scroll h-4/6 w-full ">
 				<img
 					className="mt-10"
 					src="./img/assets/slideBluethinreel-ux-p-800.png"
@@ -107,8 +105,8 @@ export const Achievements2 = () => {
 };
 export const Achievements3 = () => {
 	return (
-		<div className="flex flex-col w-8/12 self-end">
-			<table className="">
+		<div className="flex flex-col w-full m-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
+			<table className="2xl:w-6/12 self-end">
 				<tbody className="">
 					<tr className="border-b">
 						<td className="px-4 py-2">HOUSTON EXPONENTIAL</td>
