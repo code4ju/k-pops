@@ -23,7 +23,7 @@ export const Slider = () => {
 							});
 						}}
 						className="text-4xl bg-neutral-900 text-white rounded-lg px-10 py-1">
-						1
+						last
 					</button>
 					<button
 						onClick={() => {
@@ -35,7 +35,7 @@ export const Slider = () => {
 							});
 						}}
 						className="text-4xl bg-neutral-900 text-white rounded-lg px-10 py-1">
-						2
+						next
 					</button>
 				</div>
 			</div>

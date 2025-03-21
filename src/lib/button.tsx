@@ -13,7 +13,7 @@ const Button: React.FC<ButtonProps> = ({
 	...rest
 }: ButtonProps) => {
 	const handleClick = () => {
-		window.open("/calendar", "_blank");
+		console.log("to be continued");
 	};
 	return (
 		<button

@@ -20,7 +20,7 @@ export const InputForm = ({
 	title = "Schedule your personal Call",
 	onSubmit,
 	showExtraButtons = false,
-	submitButtonText = "SEND IT",
+	submitButtonText = "No function yet",
 }: InputFormProps) => {
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
