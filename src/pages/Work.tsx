@@ -1,7 +1,11 @@
 import { useState, useEffect } from "react";
 
+interface Pokemon {
+	name: string;
+	url: string;
+}
 export const Work = () => {
-	const [list, setList] = useState([]);
+	const [list, setList] = useState<Pokemon[]>([]);
 	useEffect(() => {
 		const fetchPokemons = async () => {
 			try {
@@ -23,6 +27,7 @@ export const Work = () => {
 
 		fetchPokemons();
 	}, []);
+
 	return (
 		<>
 			<div className="flex flex-col items-center mx-auto max-w-screen-2xl pb-20 pt-20 gap-10">

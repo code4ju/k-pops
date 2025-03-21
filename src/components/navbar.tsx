@@ -24,10 +24,17 @@ export const Navbar = () => {
 						{/* //! LOGO LOGO LOGO */}
 						<div>
 							<NavLink to={"/"}>
-								<img
-									src="./img/assets/homeLogo.png"
+								{/* <img
+									className="h-12"
+									src="./img/assets/logo.jpg"
 									alt=""
-								/>
+								/> */}
+
+								<p className="text-xl font-black border-t-2 border-b-2 border-black">
+									CODE
+									<span>4</span>
+									JU
+								</p>
 							</NavLink>
 						</div>
 						{/* //! BURGER BURGER BURGER */}

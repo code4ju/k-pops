@@ -5,10 +5,11 @@ export const AboutText = () => {
 				<a className="inline">
 					<span className="align-text-top text-sm px-8">ABOUT</span>
 				</a>
-				Ethan Suero is an independent designer focused on crafting
-				immersive digital experiences. He believes every project is an
-				opportunity to deliver a unique and memorable digital experience
-				that delights users and builds brand equity.
+				Ju-Yong Chang is an independent software designer focused on
+				crafting immersive digital experiences. He believes every
+				project is an opportunity to deliver a unique and memorable
+				digital experience that delights users and makes life more
+				enjoyable and efficient.
 			</p>
 		</div>
 	);

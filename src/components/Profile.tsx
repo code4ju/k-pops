@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { texts } from "./profileTexts.js";
+import { texts } from "./ProfileTexts.js";
 
 export const Profile = () => {
 	const [page, setPage] = useState(1);
@@ -9,22 +9,22 @@ export const Profile = () => {
 			<div className="flex flex-col m-auto p-3 justify-center md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
 				<div className="flex w-full p-3 items-stretch text-sm h-24 border-2 border-neutral-900">
 					<p className="flex flex-col w-1/4">
-						<b>NAME:</b> FRAZER HURELL
+						<b>NAME:</b> Ju-Yong Chang
 					</p>
 					<p className="flex flex-col w-1/4">
-						<b>ROLE:</b> CREATEIVE TECHNOLOGIST
+						<b>ROLE:</b> Software Developer
 					</p>
 					<p className="flex flex-col w-1/4">
-						<b>COMPANY:</b> YAHOO!
+						<b>COMPANY:</b> Some
 					</p>
 					<p className="flex flex-col w-1/4">
-						<b>PROJECT:</b> BRITISH AIRWAYS
+						<b>PROJECT:</b> Several
 					</p>
 				</div>
 				<div className="flex flex-col border-2 border-neutral-900 border-t-0 lg:flex-row">
 					<img
-						className="h-max m-3"
-						src="./img/assets/Frazer-hurrell-p-1080.png"
+						className="w-1/3 m-3"
+						src="./img/assets/Frazer-hurrell-p-1080.jpg"
 						alt=""
 					/>
 					<div className="flex flex-col p-12 gap-7 min-h-96 max-h-96">
