@@ -18,7 +18,7 @@ export const Navbar = () => {
 
 	return (
 		<>
-			<div className="fixed w-full bg-white h-14 md:h-20">
+			<div className="fixed w-full bg-white h-14 md:h-20 z-50">
 				<div className=" fixed top-0 left-0 right-0 p-3 m-auto md:w-full md:max-w-full md:m-auto md:flex md:flex-row md:justify-between md:items-center lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
 					<div className="flex justify-between">
 						{/* //! LOGO LOGO LOGO */}

@@ -5,7 +5,7 @@ export const AboutText = () => {
 				<a className="inline">
 					<span className="align-text-top text-sm px-8">ABOUT</span>
 				</a>
-				Ju-Yong Chang is an independent software designer focused on
+				Ju-Yong Chang is an independent software developer focused on
 				crafting immersive digital experiences. He believes every
 				project is an opportunity to deliver a unique and memorable
 				digital experience that delights users and makes life more

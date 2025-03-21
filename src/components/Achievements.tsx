@@ -105,7 +105,7 @@ export const Achievements2 = () => {
 };
 export const Achievements3 = () => {
 	return (
-		<div className="flex flex-col w-full m-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
+		<div className="flex flex-col w-full text-xs m-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
 			<table className="2xl:w-6/12 self-end">
 				<tbody className="">
 					<tr className="border-b">

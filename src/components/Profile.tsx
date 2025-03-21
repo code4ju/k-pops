@@ -21,7 +21,7 @@ export const Profile = () => {
 						<b>PROJECT:</b> Several
 					</p>
 				</div>
-				<div className="flex flex-col border-2 border-neutral-900 border-t-0 lg:flex-row">
+				<div className="flex flex-col h-max pb-20 border-2 border-neutral-900 border-t-0 lg:flex-row">
 					<img
 						className="w-1/3 m-3"
 						src="./img/assets/Frazer-hurrell-p-1080.jpg"
